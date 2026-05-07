@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvi Jadhav | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            color: #2563eb;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #0f172a;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 10%;
+        }
+
+        .hero img {
+            width: 250px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 span {
+            color: #2563eb;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2563eb;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 6px 10px;
+            margin: 5px;
+            border-radius: 6px;
+        }
+
+        .image-box {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .image-box img {
+            width: 350px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Tanvi Jadhav</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <!-- Add your photo below -->
+    <img src="tanvi.jpg.jpeg" alt="Tanvi Jadhav Profile">
+
+    <h2>Hi, I'm <span>Tanvi Jadhav</span></h2>
+    <p>First-Year IT Student | Aspiring Software Developer</p>
+
+    <!-- Add your LinkedIn link -->
+    <a href="https://www.linkedin.com/in/tanvi-jadhav-65a470369?trk=contact-info" class="button">LinkedIn</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a first-year IT engineering student from Pune, passionate about programming 
+            and building real-world projects. Currently learning C, Python, and web development, 
+            I aim to grow into a skilled software developer.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="card skills">
+        <strong>Programming:</strong><br>
+        <span>C</span><span>Python</span>
+    </div>
+
+    <div class="card skills">
+        <strong>Web:</strong><br>
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+    </div>
+
+    <div class="card skills">
+        <strong>Tools:</strong><br>
+        <span>VS Code</span><span>GitHub</span><span>Java (Basic)</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Project</h2>
+
+    <div class="card">
+        <h3>Career Simulator – Nirmaan 4.0</h3>
+        <p>
+            Built during a 48-hour hackathon to help users explore career paths interactively.
+        </p>
+        <a href="https://github.com/tanvi-jadhav6177" class="button">GitHub</a>
+    </div>
+
+    <!-- Add Nirmaan certificate photo -->
+    <div class="image-box">
+        <p><strong>Nirmaan Certificate</strong></p>
+        <img src="nirmaan.certificate.jpeg" alt="Nirmaan Certificate">
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements & Activities</h2>
+
+    <div class="card">
+        <ul>
+            <li>Python Certification (Cisco)</li>
+            <li>Participated in Nirmaan 4.0 Hackathon</li>
+            <li>Proposed Stationery Vending Machine Idea</li>
+            <li>Studied Sinhagad Fort (IKS Project)</li>
+        </ul>
+    </div>
+
+    <!-- Add Sinhagad photo -->
+    <div class="image-box">
+        <p><strong>Sinhagad Field Visit</strong></p>
+        <img src="sinhagad.jpeg" alt="Sinhagad Visit">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+        <p>Email: tanvij6177@gmail.com</p>
+        <p>Phone: 9850476177</p>
+        <p>Pune, Maharashtra</p>
+        <a href="https://github.com/tanvi-jadhav6177" class="button">GitHub</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Tanvi Jadhav</p>
+</footer>
+
+</body>
+</html>
